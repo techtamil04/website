@@ -360,23 +360,6 @@ function trendingTemplate (video) {
   }
 }
 
-function featuredPost (video) {
-  if (video.featured === true) {
-    return `
-      <div class="single-feature-post video-post bg-img" style="background-image: url(img/bg-img/${video.img});">
-        <a href="${video.url}.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-        <div class="post-content">
-          <a href="#" class="post-cata">${video.type}</a>
-          <a href="${video.url}.html" class="post-title">${video.title}</a>
-          <div class="post-meta d-flex">
-          </div>
-        </div>
-      <span class="video-duration">${video.duration}</span>
-    </div>
-`;
-  }
-}
-
 document.getElementById('app').innerHTML = `
   ${videoData.map(videotemplate1).join('')}
 `;
@@ -391,8 +374,4 @@ document.getElementById('app1').innerHTML = `
 
 document.getElementById('app2').innerHTML = `
   ${videoData.map(trendingTemplate).join('')}
-`;
-
-document.getElementById('app3').innerHTML = `
-  ${videoData.map(featuredPost).join('')}
 `;
