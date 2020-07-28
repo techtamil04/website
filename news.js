@@ -36,7 +36,6 @@ const newsData = [
 function latestNewstemplate (news) {
   return `
         <div class="single-feature-post video-post bg-img swiper-slide" style="background-image: url(img/bg-img/${news.img});">
-          <a href="${news.url}.html" class="btn"><i class="fa fa-play" aria-hidden="true"></i></a>
           <div class="post-content">
             <a href="#" class="post-cata">${news.type}</a>
             <a href="${news.url}.html" class="post-title">${news.title}</a>

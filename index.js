@@ -289,7 +289,7 @@ const videoData = [
   },
   {
     id: '1',
-    type: 'தொழில்நுட்பம்',
+    type: 'விளையாட்டு',
     title: 'ஸ்நப் சாட் என்றால் என்ன ?',
     duration: '21:29',
     url: 'snapchatPost',
@@ -360,6 +360,44 @@ function trendingTemplate (video) {
   }
 }
 
+function sportsTemplate (video) {
+  if (video.type === 'விளையாட்டு') {
+    return `
+    <div class="single-post-area swiper-slide">
+      <div class="post-thumbnail">
+      <img src="img/bg-img/${video.img}" alt="">
+      <span class="video-duration"></span>
+      </div>
+      <div class="post-content">
+      <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
+      <a href="${video.url}.html" class="post-title">${video.title}</a>
+      <div class="post-meta d-flex">
+      </div>
+      </div>
+      </div>
+  `;
+  }
+}
+
+function techTemplate (video) {
+  if (video.type === 'தொழில்நுட்பம்') {
+    return `
+    <div class="single-post-area swiper-slide">
+      <div class="post-thumbnail">
+        <img src="img/bg-img/${video.img}" alt="">
+        <span class="video-duration"></span>
+      </div>
+      <div class="post-content">
+        <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
+        <a href="${video.url}.html" class="post-title">${video.title}</a>
+        <div class="post-meta d-flex">
+        </div>
+      </div>
+    </div>
+  `;
+  }
+}
+
 document.getElementById('app').innerHTML = `
   ${videoData.map(videotemplate1).join('')}
 `;
@@ -374,4 +412,12 @@ document.getElementById('app1').innerHTML = `
 
 document.getElementById('app2').innerHTML = `
   ${videoData.map(trendingTemplate).join('')}
+`;
+
+document.getElementById('app5').innerHTML = `
+  ${videoData.map(sportsTemplate).join('')}
+`;
+
+document.getElementById('app6').innerHTML = `
+  ${videoData.map(techTemplate).join('')}
 `;
