@@ -289,7 +289,7 @@ const videoData = [
   },
   {
     id: '1',
-    type: 'விளையாட்டு',
+    type: 'தொழில்நுட்பம்',
     title: 'ஸ்நப் சாட் என்றால் என்ன ?',
     duration: '21:29',
     url: 'snapchatPost',
@@ -300,45 +300,6 @@ const videoData = [
     featured: false
   }
 ];
-
-function videotemplate1 (video) {
-  return `
-  <div class="tab-pane fade ${video.active1}" id="post-${video.id}" role="tabpanel" aria-labelledby="post-${video.id}-tab">
-                            
-    <div class="single-feature-post video-post bg-img" style="background-image: url(img/bg-img/${video.img});">
-         
-      <a href="${video.url}.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-          
-      <div class="post-content">
-        <a href="#" class="post-cata" lang="tt">${video.type}</a>
-        <a href="${video.url}.html" class="post-title" lang="tt">${video.title}</a>
-          <div class="post-meta d-flex">
-          </div>
-      </div>
-          
-      <span class="video-duration">${video.duration}</span>
-    </div>
-  </div>
-  `;
-}
-
-function videotemplate2 (video) {
-  return `
-  <a class="nav-link ${video.active}" id="post-${video.id}-tab" data-toggle="pill" href="#post-${video.id}" role="tab" aria-controls="post-${video.id}" aria-selected="true">
-                                
-  <div class="single-blog-post style-2 d-flex align-items-center">
-    <div class="post-thumbnail">
-      <img src="img/bg-img/${video.img}" alt="">
-    </div>
-    <div class="post-content">
-      <h6 class="post-title" lang="tt">${video.title}</h6>
-      <div class="post-meta d-flex justify-content-between">
-      </div>
-    </div>
-  </div>
-  </a>                   
-  `;
-}
 
 function trendingTemplate (video) {
   if (video.trending === true) {
@@ -366,7 +327,6 @@ function sportsTemplate (video) {
     <div class="single-post-area swiper-slide">
       <div class="post-thumbnail">
       <img src="img/bg-img/${video.img}" alt="">
-      <span class="video-duration"></span>
       </div>
       <div class="post-content">
       <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
@@ -379,13 +339,12 @@ function sportsTemplate (video) {
   }
 }
 
-function techTemplate (video) {
-  if (video.type === 'தொழில்நுட்பம்') {
+function otherTemplate (video) {
+  if (video.type !== 'தொழில்நுட்பம்' && video.type !== 'விளையாட்டு') {
     return `
     <div class="single-post-area swiper-slide">
       <div class="post-thumbnail">
         <img src="img/bg-img/${video.img}" alt="">
-        <span class="video-duration"></span>
       </div>
       <div class="post-content">
         <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
@@ -398,17 +357,20 @@ function techTemplate (video) {
   }
 }
 
-document.getElementById('app').innerHTML = `
-  ${videoData.map(videotemplate1).join('')}
-`;
-
-document.getElementById('app1').innerHTML = `
-<ul class="nav vizew-nav-tab" role="tablist">
-  <li class="nav-item">
-    ${videoData.map(videotemplate2).join('')}
-  </li>
-</ul>
-`;
+function latestVideostemplate (video) {
+  return `
+        <div class="single-feature-post video-post bg-img swiper-slide" style="background-image: url(img/bg-img/${video.img});">
+        <a href="${video.url}" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+          <div class="post-content">
+            <a href="#" class="post-cata">${video.type}</a>
+            <a href="${video.url}.html" class="post-title">${video.title}</a>
+            <div class="post-meta d-flex">
+            </div>
+          </div>
+          <span class="video-duration">${video.duration}</span>
+      </div>
+  `;
+}
 
 document.getElementById('app2').innerHTML = `
   ${videoData.map(trendingTemplate).join('')}
@@ -419,5 +381,9 @@ document.getElementById('app5').innerHTML = `
 `;
 
 document.getElementById('app6').innerHTML = `
-  ${videoData.map(techTemplate).join('')}
+  ${videoData.map(otherTemplate).join('')}
+`;
+
+document.getElementById('app3').innerHTML = `
+  ${videoData.map(latestVideostemplate).join('')}
 `;
