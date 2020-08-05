@@ -3,7 +3,7 @@ const teamData = [
     id: '3',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'airpods.jpg',
+    img: 'adin.jpg',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
@@ -27,7 +27,7 @@ const teamData = [
     id: '1',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'ubuntu.jpg',
+    img: 'adin.jpg',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
