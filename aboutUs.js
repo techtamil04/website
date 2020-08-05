@@ -27,7 +27,7 @@ const teamData = [
     id: '1',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'adin.jpg',
+    img: '1.jpg',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',

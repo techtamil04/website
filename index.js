@@ -9,7 +9,7 @@ const videoData = [
     active: 'active',
     active1: 'show active',
     trending: true,
-    featured: true
+    latest: true
   },
   {
     id: '24',
@@ -21,7 +21,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: true,
-    featured: true
+    latest: true
   },
   {
     id: '23',
@@ -33,7 +33,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: true,
-    featured: false
+    latest: false
   },
   {
     id: '22',
@@ -45,7 +45,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: true
+    latest: true
   },
   {
     id: '21',
@@ -57,7 +57,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '20',
@@ -69,7 +69,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '19',
@@ -81,7 +81,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '18',
@@ -93,7 +93,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '17',
@@ -105,7 +105,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '16',
@@ -117,7 +117,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '15',
@@ -129,7 +129,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '14',
@@ -141,7 +141,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '13',
@@ -153,7 +153,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '12',
@@ -165,7 +165,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '11',
@@ -177,7 +177,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '10',
@@ -189,7 +189,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '9',
@@ -201,7 +201,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '8',
@@ -213,7 +213,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '7',
@@ -225,7 +225,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '6',
@@ -237,7 +237,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '5',
@@ -249,7 +249,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '4',
@@ -261,7 +261,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '3',
@@ -273,7 +273,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '2',
@@ -285,7 +285,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   },
   {
     id: '1',
@@ -297,7 +297,7 @@ const videoData = [
     active: '',
     active1: '',
     trending: false,
-    featured: false
+    latest: false
   }
 ];
 
@@ -372,6 +372,24 @@ function latestVideostemplate (video) {
   `;
 }
 
+function latestSideTemplate (video) {
+  if (video.latest === true) {
+    return `
+    <div class="single-blog-post d-flex">
+      <div class="post-thumbnail">
+        <img src="img/bg-img/${video.img}" alt="">
+      </div>
+      <div class="post-content">
+        <a href="#" class="post-cata cata-sm cata-success">${video.type}</a>
+        <a href="single-post.html" class="post-title">${video.title}</a>
+        <div class="post-meta d-flex justify-content-between">
+        </div>
+      </div>
+    </div>
+  `;
+  }
+}
+
 document.getElementById('app2').innerHTML = `
   ${videoData.map(trendingTemplate).join('')}
 `;
@@ -386,4 +404,12 @@ document.getElementById('app6').innerHTML = `
 
 document.getElementById('app3').innerHTML = `
   ${videoData.map(latestVideostemplate).join('')}
+`;
+
+document.getElementById('app13').innerHTML = `
+<div class="section-heading style-2 mb-30">
+  <h4>Latest Video</h4>
+  <div class="line"></div>
+</div>
+  ${videoData.map(latestSideTemplate).join('')}
 `;
