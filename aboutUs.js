@@ -3,7 +3,7 @@ const teamData = [
     id: '3',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'adin.jpg',
+    img: 'add.png',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
@@ -15,7 +15,7 @@ const teamData = [
     id: '2',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'adin.jpg',
+    img: 'add.png',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
@@ -27,7 +27,7 @@ const teamData = [
     id: '1',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'adin.jpg',
+    img: 'add.png',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
@@ -41,7 +41,7 @@ function teamTemplate (data) {
   return `
   <div class="col-md-3 col-sm-6" style="margin-right: 40px;  margin-bottom: 30px;">
   <div class="full team_blog_colum">
-      <img class="img-responsive" src="img/bg-img/${data.img}">
+      <img class="img-responsive" style="border-radius: 50%" src="img/bg-img/${data.img}">
         <div class="team_feature_head" style="margin-bottom: 20px; margin-top: 10px">
         <h4>${data.name}</h4>
         <h7 style="color: #db4437">${data.designation}</h7>
