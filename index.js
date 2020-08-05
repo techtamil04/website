@@ -113,7 +113,7 @@ const videoData = [
     title: 'கீழடி |KEEZHADI |A TRIBUTE VIDEO BY PETROTECH',
     duration: '21:29',
     url: 'snapchatPost',
-    img: 'snapchat.jpg',
+    img: 'keezhadi.jpg',
     active: '',
     active1: '',
     trending: false,

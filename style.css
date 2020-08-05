@@ -1946,3 +1946,60 @@ textarea.form-control {
   max-height: 100%;
   margin-bottom: 30px;
 }
+
+.full {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.team_blog_colum {
+	padding-bottom: 25px;
+	transition: ease all 0.5s;
+} 
+
+
+.team_blog_colum:focus a {
+	color: #fff;
+}
+
+.it_team_img img {
+	width: 100%;
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.team_feature_head {
+	text-align: center;
+}
+
+.team_feature_social {
+	float: left;
+	width: 100%;
+	justify-content: center;
+	display: flex;
+}
+
+.team_feature_social .social_icon ul li {
+	display: inline;
+	font-size: 15px;
+	margin: 0px 5px;
+}
+
+.team_feature_head h4 {
+	margin-bottom: 10px;
+}
+
+.team_feature_social .social_icon ul li {
+	display: inline;
+	font-size: 15px;
+	margin: 0px 5px;
+}
+
+.header_top .topbar-left .list-inline {
+	float: left;
+	margin: 13px 0;
+}
