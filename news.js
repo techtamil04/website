@@ -3,7 +3,7 @@ const newsData = [
     id: '2',
     type: 'தொழில்நுட்பம்',
     author: 'Adin Hudson',
-    title: 'இறந்தவர்களுடன் தொடர்பு கொள்ள விரும்புகிறீர்களா ?',
+    title: 'விரைவில் ஹாலோகிராம் தொடர்பாடல் வசதி',
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
     date: '10.08.2020',
     url: '../articles/hologram',
