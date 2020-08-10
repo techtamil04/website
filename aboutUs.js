@@ -1,26 +1,38 @@
 const teamData = [
   {
-    id: '3',
-    name: 'Adin Hudson',
-    designation: 'Web Developer',
+    id: '4',
+    name: 'Jonathan Harshanth',
+    designation: 'Content Creator',
     img: 'add.jpg',
     social: {
-      instagram: 'https://www.instagram.com/adin_hudson/',
-      facebook: 'https://www.facebook.com/adinpathmanathan',
-      linkedin: 'https://www.linkedin.com/in/adin-hudson/',
-      twitter: 'https://twitter.com/adin_hudson'
+      instagram: '#',
+      facebook: 'https://www.facebook.com/search/top?q=jonathan%20harshanth%20nithiananthan',
+      linkedin: 'https://www.linkedin.com/in/jhnithi/',
+      twitter: 'https://twitter.com/harshanth96'
+    }
+  },
+  {
+    id: '3',
+    name: 'Dilshan William',
+    designation: 'Content Creator',
+    img: 'add.jpg',
+    social: {
+      instagram: 'https://www.instagram.com/dilshan_the_boss/',
+      facebook: 'https://www.facebook.com/dilshan.william',
+      linkedin: '#',
+      twitter: 'https://twitter.com/dilshan_william/'
     }
   },
   {
     id: '2',
-    name: 'Adin Hudson',
-    designation: 'Web Developer',
+    name: 'Aaron Sanjeev Vasu',
+    designation: 'Content Creator',
     img: 'add.jpg',
     social: {
-      instagram: 'https://www.instagram.com/adin_hudson/',
-      facebook: 'https://www.facebook.com/adinpathmanathan',
-      linkedin: 'https://www.linkedin.com/in/adin-hudson/',
-      twitter: 'https://twitter.com/adin_hudson'
+      instagram: 'https://www.instagram.com/aaron_sanjeev/',
+      facebook: 'https://www.facebook.com/aaronsan7eev/',
+      linkedin: '#',
+      twitter: 'https://twitter.com/aaron_sanjeev'
     }
   },
   {
@@ -49,10 +61,10 @@ function teamTemplate (data) {
     <div class="team_feature_social">
         <div class="social_icon">
             <ul class="list-inline">
-                <li><a href="${data.social.facebook}" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="${data.social.instagram}" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="${data.social.twitter}" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="${data.social.linkedin}" title="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="${data.social.facebook}" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="${data.social.instagram}" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="${data.social.twitter}" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="${data.social.linkedin}" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </div>
     </div>

@@ -1,37 +1,25 @@
 const newsData = [
   {
-    id: '3',
+    id: '2',
     type: 'தொழில்நுட்பம்',
     author: 'Adin Hudson',
-    title: 'WHY UBUNTU IS BETTER THAN WINDOWS -TAMIL |தமிழ்',
+    title: 'இறந்தவர்களுடன் தொடர்பு கொள்ள விரும்புகிறீர்களா ?',
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
-    date: '24.08.2020',
-    url: 'snapchatPost',
-    img: 'ubuntu.jpg',
+    date: '10.08.2020',
+    url: '../articles/hologram',
+    img: 'hologram.jpg',
     active: 'active',
     active1: 'show active'
   },
   {
-    id: '2',
-    type: 'Mobile',
-    author: 'Adin Hudson',
-    title: 'HOW TO INSTALL SSD IN A LAPTOP- TAMIL',
-    description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic ',
-    date: '24.08.2020',
-    url: 'snapchatPost',
-    img: 'ssdInstallation.jpg',
-    active: '',
-    active1: ''
-  },
-  {
     id: '1',
     type: 'தொழில்நுட்பம்',
-    author: 'Adin hudson',
-    title: 'Motherboard explained in TAMIL- chipsets, sockets and ports',
+    author: 'Adin Hudson',
+    title: 'நீர் குளிரூட்டல் என்றால் என்ன ?',
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
-    date: '24.08.2020',
-    url: 'snapchatPost',
-    img: 'motherBoard2.jpg',
+    date: '10.08.2020',
+    url: '../articles/waterCooling',
+    img: 'ubuntu.jpg',
     active: '',
     active1: ''
   }

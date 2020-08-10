@@ -1,13 +1,91 @@
 const videoData = [
+  // {
+  //   id: '',
+  //   type: 'தொழில்நுட்பம்',
+  //   title: '',
+  //   duration: '',
+  //   url: '',
+  //   img: '',
+  //   trending: false,
+  //   latest: false
+  // },
+  // {
+  //   id: '',
+  //   type: 'தொழில்நுட்பம்',
+  //   title: '',
+  //   duration: '',
+  //   url: '',
+  //   img: '',
+  //   trending: false,
+  //   latest: false
+  // },
+  // {
+  //   id: '',
+  //   type: 'தொழில்நுட்பம்',
+  //   title: '',
+  //   duration: '',
+  //   url: '',
+  //   img: '',
+  //   trending: false,
+  //   latest: false
+  // },
+  {
+    id: '30',
+    type: 'தொழில்நுட்பம்',
+    title: '[TAMIL] SCREEN MIRRORING IOS/ANDROID TO PC - 100% இலவசம்',
+    duration: '4:20',
+    url: 'https://youtu.be/ZYgMI_Ofmz8',
+    img: 'screenMirror.jpg',
+    trending: false,
+    latest: false
+  },
+  {
+    id: '29',
+    type: 'தொழில்நுட்பம்',
+    title: '[TAMIL] What is THERMAL PASTE- How to replace ?',
+    duration: '7:59',
+    url: 'https://youtu.be/k5fItiSWh6k',
+    img: 'thermalpaste.jpg',
+    trending: false,
+    latest: false
+  },
+  {
+    id: '28',
+    type: 'தொழில்நுட்பம்',
+    title: '[TAMIL] HOW TO BUILD A COMPUTER | CORE 2 DUO DESKTOP',
+    duration: '14:26',
+    url: 'https://youtu.be/Q_8FrtQNg2A',
+    img: 'pcbuild.jpg',
+    trending: false,
+    latest: false
+  },
+  {
+    id: '27',
+    type: 'தொழில்நுட்பம்',
+    title: '[தமிழ்] HOW TO INSTALL UBUNTU OPERATING SYSTEM',
+    duration: '4:25',
+    url: 'https://youtu.be/Q1ciPzqfg38',
+    img: 'installubuntu.jpg',
+    trending: false,
+    latest: false
+  },
+  {
+    id: '26',
+    type: 'தொழில்நுட்பம்',
+    title: '[TAMIL] SONY WIRELESS HEADPHONE REVIEW WH1000XM3',
+    duration: '3:35',
+    url: 'https://youtu.be/Vv37-yoIbec',
+    img: 'wh1000xm3.jpg',
+    trending: false,
+    latest: false
+  },
   {
     id: '25',
     type: 'தொழில்நுட்பம்',
     title: 'WHY UBUNTU IS BETTER THAN WINDOWS -TAMIL |தமிழ்',
-    duration: '10:29',
-    url: 'snapchatPost',
+    duration: '11:38',
+    url: 'https://youtu.be/xqeuD-vgKtc',
     img: 'ubuntu.jpg',
-    active: 'active',
-    active1: 'show active',
     trending: true,
     latest: true
   },
@@ -18,8 +96,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'ssdInstallation.jpg',
-    active: '',
-    active1: '',
     trending: true,
     latest: true
   },
@@ -30,10 +106,8 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'motherBoard2.jpg',
-    active: '',
-    active1: '',
     trending: true,
-    latest: false
+    latest: true
   },
   {
     id: '22',
@@ -42,10 +116,8 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: '90stech.jpg',
-    active: '',
-    active1: '',
     trending: false,
-    latest: true
+    latest: false
   },
   {
     id: '21',
@@ -54,8 +126,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: '1stGenipod.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -66,8 +136,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'graphicsCard.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -78,8 +146,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'airpods2ndgen.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -90,8 +156,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'HddvsSsd.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -99,11 +163,9 @@ const videoData = [
     id: '17',
     type: 'தொழில்நுட்பம்',
     title: 'INSTALL SSD + HDD IN YOUR OLD LAPTOP| TAMIL | SETUP GUIDE-PETROTECH',
-    duration: '21:29',
-    url: 'snapchatPost',
+    duration: '5:45',
+    url: 'https://youtu.be/AZJIDv1bWJU',
     img: 'HddSsd.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -114,8 +176,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'keezhadi.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -126,8 +186,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'airpods.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -138,8 +196,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'galaxyBuds.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -150,8 +206,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 's10Plus.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -162,8 +216,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'iphonexr.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -174,8 +226,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'pubg.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -186,8 +236,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 's8plus.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -198,8 +246,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'ipadvstabS2.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -210,8 +256,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'ipadAir2.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -222,8 +266,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'dbrand.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -234,8 +276,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 's7.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -246,8 +286,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'billGates.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -258,8 +296,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'uberTamil.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -270,8 +306,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'lgK10.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -282,8 +316,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'iphone7Plus.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   },
@@ -294,8 +326,6 @@ const videoData = [
     duration: '21:29',
     url: 'snapchatPost',
     img: 'snapchat.jpg',
-    active: '',
-    active1: '',
     trending: false,
     latest: false
   }
@@ -312,7 +342,7 @@ function trendingTemplate (video) {
         </div>
         <div class="post-content">
             <a href="#" class="post-cata">${video.type}</a>
-            <a href="${video.url}.html" class="post-title">${video.title}</a>
+            <a href="${video.url}" class="post-title">${video.title}</a>
             <div class="post-meta d-flex">
             </div>
         </div>
@@ -330,7 +360,7 @@ function sportsTemplate (video) {
       </div>
       <div class="post-content">
       <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-      <a href="${video.url}.html" class="post-title">${video.title}</a>
+      <a href="${video.url}" class="post-title">${video.title}</a>
       <div class="post-meta d-flex">
       </div>
       </div>
@@ -348,7 +378,7 @@ function otherTemplate (video) {
       </div>
       <div class="post-content">
         <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-        <a href="${video.url}.html" class="post-title">${video.title}</a>
+        <a href="${video.url}" class="post-title">${video.title}</a>
         <div class="post-meta d-flex">
         </div>
       </div>
@@ -363,7 +393,7 @@ function latestVideostemplate (video) {
         <a href="${video.url}" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
           <div class="post-content">
             <a href="#" class="post-cata">${video.type}</a>
-            <a href="${video.url}.html" class="post-title">${video.title}</a>
+            <a href="${video.url}" class="post-title">${video.title}</a>
             <div class="post-meta d-flex">
             </div>
           </div>
