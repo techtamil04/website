@@ -1,5 +1,15 @@
 const newsData = [
   {
+    id: '2',
+    type: 'தொழில்நுட்பம்',
+    author: 'Adin Hudson',
+    title: 'விரைவில் ஹாலோகிராம் தொடர்பாடல் வசதி',
+    description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
+    date: '10.08.2020',
+    url: '../articles/hologram',
+    img: 'hologram.jpg'
+  },
+  {
     id: '1',
     type: 'தொழில்நுட்பம்',
     author: 'Adin Hudson',
@@ -7,9 +17,7 @@ const newsData = [
     description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
     date: '10.08.2020',
     url: '../articles/waterCooling',
-    img: 'ubuntu.jpg',
-    active: 'active',
-    active1: 'show active'
+    img: 'ubuntu.jpg'
   }
 ];
 
