@@ -1,17 +1,5 @@
 const reviewVideoData = [
   {
-    id: '4',
-    type: 'தொழில்நுட்பம்',
-    author: 'Adin Hudson',
-    title: 'WHY UBUNTU IS BETTER THAN WINDOWS -TAMIL |தமிழ்',
-    description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
-    date: '24.08.2020',
-    url: 'snapchatPost',
-    img: 'ubuntu.jpg',
-    active: 'active',
-    active1: 'show active'
-  },
-  {
     id: '3',
     type: 'தொழில்நுட்பம்',
     author: 'Adin Hudson',

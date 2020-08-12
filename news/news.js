@@ -2,22 +2,22 @@ const newsData = [
   {
     id: '2',
     type: 'தொழில்நுட்பம்',
-    author: 'Adin Hudson',
-    title: 'விரைவில் ஹாலோகிராம் தொடர்பாடல் வசதி',
-    description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
-    date: '10.08.2020',
-    url: '../articles/hologram',
-    img: 'hologram.jpg'
+    author: 'Rashmika',
+    title: 'யூடுப் இல் பணம் சம்பாரிப்பது எப்படி ?',
+    description: 'இப்பொழுது பிரபலமாக வளர்ந்து கொண்டு இருக்கும் ட்ர்ண்ட் யுடுப் விடியொஸ்',
+    date: '12.08.2020',
+    url: '../articles/youtubeEarning',
+    img: 'youtubeEarning.jpeg'
   },
   {
     id: '1',
     type: 'தொழில்நுட்பம்',
     author: 'Adin Hudson',
-    title: 'நீர் குளிரூட்டல் என்றால் என்ன ?',
-    description: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic',
+    title: 'விரைவில் ஹாலோகிராம் தொடர்பாடல் வசதி',
+    description: 'லாஸ் ஏஞ்சல்ஸ் நிறுவனம் உங்கள் அறைக்குள் நேரடி ஹாலோகிராம்களை ஒளிபரப்ப தயார்',
     date: '10.08.2020',
-    url: '../articles/waterCooling',
-    img: 'ubuntu.jpg'
+    url: '../articles/hologram',
+    img: 'hologram.jpg'
   }
 ];
 
@@ -33,7 +33,7 @@ function newstemplate (video) {
             <div class="col-12 col-md-6">
                 <div class="post-content mt-0">
                     <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-                    <a href="single-post.html" class="post-title mb-2">${video.title}</a>
+                    <a href="${video.url}.html" class="post-title mb-2">${video.title}</a>
                     <div class="post-meta d-flex align-items-center mb-2">
                         <a href="#" class="post-author">By ${video.author}</a>
                         <i class="fa fa-circle" aria-hidden="true"></i>

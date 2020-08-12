@@ -1,9 +1,21 @@
 const teamData = [
   {
+    id: '5',
+    name: 'Rashmika',
+    designation: 'Content Creator',
+    img: 'profile.png',
+    social: {
+      instagram: 'https://www.instagram.com/smollife_/',
+      facebook: 'https://www.facebook.com/Rashi.bala23',
+      linkedin: '#',
+      twitter: '#'
+    }
+  },
+  {
     id: '4',
     name: 'Jonathan Harshanth',
     designation: 'Content Creator',
-    img: 'add.jpg',
+    img: 'profile.png',
     social: {
       instagram: '#',
       facebook: 'https://www.facebook.com/search/top?q=jonathan%20harshanth%20nithiananthan',
@@ -15,7 +27,7 @@ const teamData = [
     id: '3',
     name: 'Dilshan William',
     designation: 'Content Creator',
-    img: 'add.jpg',
+    img: 'profile.png',
     social: {
       instagram: 'https://www.instagram.com/dilshan_the_boss/',
       facebook: 'https://www.facebook.com/dilshan.william',
@@ -27,7 +39,7 @@ const teamData = [
     id: '2',
     name: 'Aaron Sanjeev Vasu',
     designation: 'Content Creator',
-    img: 'add.jpg',
+    img: 'profile.png',
     social: {
       instagram: 'https://www.instagram.com/aaron_sanjeev/',
       facebook: 'https://www.facebook.com/aaronsan7eev/',
@@ -39,7 +51,7 @@ const teamData = [
     id: '1',
     name: 'Adin Hudson',
     designation: 'Web Developer',
-    img: 'add.jpg',
+    img: 'profile.png',
     social: {
       instagram: 'https://www.instagram.com/adin_hudson/',
       facebook: 'https://www.facebook.com/adinpathmanathan',
