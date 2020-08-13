@@ -1,5 +1,29 @@
 const teamData = [
   {
+    id: '6',
+    name: 'Niluja Parameswaran',
+    designation: 'Content Creator',
+    img: 'profile.png',
+    social: {
+      instagram: 'https://www.instagram.com/_niluja_/',
+      facebook: 'https://www.facebook.com/Niluparamesh',
+      linkedin: '#',
+      twitter: '#'
+    }
+  },
+  {
+    id: '6',
+    name: 'Arabi Balachandran',
+    designation: 'Content Creator',
+    img: 'profile.png',
+    social: {
+      instagram: '#',
+      facebook: '#',
+      linkedin: '#',
+      twitter: '#'
+    }
+  },
+  {
     id: '5',
     name: 'Rashmika',
     designation: 'Content Creator',

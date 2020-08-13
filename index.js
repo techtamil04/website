@@ -33,11 +33,11 @@ const videoData = [
     id: '30',
     type: 'தொழில்நுட்பம்',
     title: '[TAMIL] SCREEN MIRRORING IOS/ANDROID TO PC - 100% இலவசம்',
-    duration: '4:20',
+    duration: '4:21',
     url: 'https://youtu.be/ZYgMI_Ofmz8',
     img: 'screenMirror.jpg',
-    trending: false,
-    latest: false
+    trending: true,
+    latest: true
   },
   {
     id: '29',
@@ -47,7 +47,7 @@ const videoData = [
     url: 'https://youtu.be/k5fItiSWh6k',
     img: 'thermalpaste.jpg',
     trending: false,
-    latest: false
+    latest: true
   },
   {
     id: '28',
@@ -57,7 +57,7 @@ const videoData = [
     url: 'https://youtu.be/Q_8FrtQNg2A',
     img: 'pcbuild.jpg',
     trending: false,
-    latest: false
+    latest: true
   },
   {
     id: '27',
@@ -73,7 +73,7 @@ const videoData = [
     id: '26',
     type: 'தொழில்நுட்பம்',
     title: '[TAMIL] SONY WIRELESS HEADPHONE REVIEW WH1000XM3',
-    duration: '3:35',
+    duration: '3:36 ',
     url: 'https://youtu.be/Vv37-yoIbec',
     img: 'wh1000xm3.jpg',
     trending: false,
@@ -87,34 +87,34 @@ const videoData = [
     url: 'https://youtu.be/xqeuD-vgKtc',
     img: 'ubuntu.jpg',
     trending: true,
-    latest: true
+    latest: false
   },
   {
     id: '24',
     type: 'தொழில்நுட்பம்',
     title: 'HOW TO INSTALL SSD IN A LAPTOP- TAMIL',
-    duration: '21:29',
-    url: 'snapchatPost',
+    duration: '3:50',
+    url: 'https://youtu.be/N3bzCic29xI',
     img: 'ssdInstallation.jpg',
-    trending: true,
-    latest: true
+    trending: false,
+    latest: false
   },
   {
     id: '23',
     type: 'தொழில்நுட்பம்',
     title: 'Motherboard explained in TAMIL- chipsets, sockets and ports',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/DHOtknjGu4Q',
     img: 'motherBoard2.jpg',
-    trending: true,
-    latest: true
+    trending: false,
+    latest: false
   },
   {
     id: '22',
     type: 'தொழில்நுட்பம்',
     title: '90s Kids Kadhal - A TECH view',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/obxWrGf5AZw',
     img: '90stech.jpg',
     trending: false,
     latest: false
@@ -124,7 +124,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Switching on Ipod Touch after 10 years- Tamil RETRO REVIEW',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/0q9T2FcntQ4',
     img: '1stGenipod.jpg',
     trending: false,
     latest: false
@@ -134,7 +134,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Nvidia VS AMD | எது சிறந்தது?',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/eoUP_CvMzeY',
     img: 'graphicsCard.jpg',
     trending: false,
     latest: false
@@ -144,7 +144,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'DONT BUY AIRPODS PRO BEFORE WATCHING THIS -TAMIL |தமிழ்',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/MD1Lbm3SR8I',
     img: 'airpods2ndgen.jpg',
     trending: false,
     latest: false
@@ -154,7 +154,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Boot time comparison | SSD vs HDD | PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/erZMoXA-i-c',
     img: 'HddvsSsd.jpg',
     trending: false,
     latest: false
@@ -174,7 +174,7 @@ const videoData = [
     type: 'பாரம்பரியம்',
     title: 'கீழடி |KEEZHADI |A TRIBUTE VIDEO BY PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/AZJIDv1bWJU ',
     img: 'keezhadi.jpg',
     trending: false,
     latest: false
@@ -184,7 +184,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'AIRPODS - Complete Guide -TAMIL |PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/kxJBUh93J18',
     img: 'airpods.jpg',
     trending: false,
     latest: false
@@ -194,7 +194,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Galaxy Buds Review -TAMIL |PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/zAlnxrqbYlg',
     img: 'galaxyBuds.jpg',
     trending: false,
     latest: false
@@ -204,7 +204,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'SAMSUNG S10+ PLUS TAMIL REVIEW | QUICK REVIEW |PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/GH3nH20gA3o',
     img: 's10Plus.jpg',
     trending: false,
     latest: false
@@ -214,7 +214,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'iPhone XR Tamil Review | PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/p4U203n9MiM',
     img: 'iphonexr.jpg',
     trending: false,
     latest: false
@@ -224,7 +224,7 @@ const videoData = [
     type: 'விளையாட்டு',
     title: 'Play PUBG mobile on PC | TAMIL (தமிழ்)',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/HnfOO8YIRSw',
     img: 'pubg.jpg',
     trending: false,
     latest: false
@@ -234,7 +234,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Samsung S8 & S8+ TAMIL REVIEW | PETROTECH',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/KUZ7N6s55Mc',
     img: 's8plus.jpg',
     trending: false,
     latest: false
@@ -244,7 +244,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'iPAD vs TAB S2 [TAMIL] |PETROTECH-TAMIL TECH CHANNEL',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/sJTp7AZK4xI',
     img: 'ipadvstabS2.jpg',
     trending: false,
     latest: false
@@ -254,7 +254,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'iPad AIR 2 TAMIL|தமிழ் REVIEW |PETROTECH|',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/tm-QQ2URtgY',
     img: 'ipadAir2.jpg',
     trending: false,
     latest: false
@@ -264,7 +264,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'HOW TO APPLY MOBILE SKIN - TAMIL | தமிழ்  GUIDE |PETROTECH|',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/EsCWoGs3hh0',
     img: 'dbrand.jpg',
     trending: false,
     latest: false
@@ -274,7 +274,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Samsung S7 Edge Review in Tamil | தமிழ்',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/mazxqbF38Dk',
     img: 's7.jpg',
     trending: false,
     latest: false
@@ -294,7 +294,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'தமிழ் | Tamil | HOW TO USE UBER SRILANKA - FREE RIDE CODE INSIDE',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/5v0qQxyx4ec',
     img: 'uberTamil.jpg',
     trending: false,
     latest: false
@@ -304,7 +304,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'LG K10 REVIEW IN TAMIL |தமிழ்',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/7yMxaX0nhWQ',
     img: 'lgK10.jpg',
     trending: false,
     latest: false
@@ -314,7 +314,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'iPhone 7 Plus - Full தமிழ் Review (மதிப்பாய்வுரை)',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/1colshyn6z0',
     img: 'iphone7Plus.jpg',
     trending: false,
     latest: false
@@ -324,9 +324,9 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'ஸ்நப் சாட் என்றால் என்ன ?',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/UZ6GZj2Zaws',
     img: 'snapchat.jpg',
-    trending: false,
+    trending: true,
     latest: false
   }
 ];

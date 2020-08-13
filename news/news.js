@@ -1,5 +1,15 @@
 const newsData = [
   {
+    id: '3',
+    type: 'தொழில்நுட்பம்',
+    author: 'Arabi Balachandran',
+    title: 'இலகுவாக ஆன்லைனில் பணம் சம்பாதிக்கும் விவரங்கள் மற்றும் முறைகள்',
+    description: 'ஆன்லைனில் பணம் சம்பாதிக்க உதவும் சில வலைத்தளங்களை முறைகளுடன் கீழ காணலாம்',
+    date: '13.08.2020',
+    url: '../articles/easyEarning',
+    img: 'make-money-online.jpg'
+  },
+  {
     id: '2',
     type: 'தொழில்நுட்பம்',
     author: 'Rashmika',
