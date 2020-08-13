@@ -1,6 +1,54 @@
 const teamData = [
   {
-    id: '6',
+    id: '1',
+    name: 'Aaron Sanjeev Vasu',
+    designation: 'Content Creator',
+    img: 'aaron.jpg',
+    social: {
+      instagram: 'https://www.instagram.com/aaron_sanjeev/',
+      facebook: 'https://www.facebook.com/aaronsan7eev/',
+      linkedin: '#',
+      twitter: 'https://twitter.com/aaron_sanjeev'
+    }
+  },
+  {
+    id: '2',
+    name: 'Adin Hudson',
+    designation: 'Web Developer, Gamer, Content Creator',
+    img: 'adin.jpg',
+    social: {
+      instagram: 'https://www.instagram.com/adin_hudson/',
+      facebook: 'https://www.facebook.com/adinpathmanathan',
+      linkedin: 'https://www.linkedin.com/in/adin-hudson/',
+      twitter: 'https://twitter.com/adin_hudson'
+    }
+  },
+  {
+    id: '3',
+    name: 'Dilshan William',
+    designation: 'Content Creator',
+    img: 'dilshan.jpg',
+    social: {
+      instagram: 'https://www.instagram.com/dilshan_the_boss/',
+      facebook: 'https://www.facebook.com/dilshan.william',
+      linkedin: '#',
+      twitter: 'https://twitter.com/dilshan_william/'
+    }
+  },
+  {
+    id: '4',
+    name: 'Jonathan Harshanth',
+    designation: 'Content Creator',
+    img: 'jonathan.jpg',
+    social: {
+      instagram: '#',
+      facebook: 'https://www.facebook.com/search/top?q=jonathan%20harshanth%20nithiananthan',
+      linkedin: 'https://www.linkedin.com/in/jhnithi/',
+      twitter: 'https://twitter.com/harshanth96'
+    }
+  },
+  {
+    id: '5',
     name: 'Niluja Parameswaran',
     designation: 'Content Creator',
     img: 'niluja.jpg',
@@ -24,7 +72,7 @@ const teamData = [
     }
   },
   {
-    id: '5',
+    id: '7',
     name: 'Rashmika Balasubramaniam',
     designation: 'Content Creator',
     img: 'rashmika.jpg',
@@ -33,54 +81,6 @@ const teamData = [
       facebook: 'https://www.facebook.com/Rashi.bala23',
       linkedin: '#',
       twitter: '#'
-    }
-  },
-  {
-    id: '4',
-    name: 'Jonathan Harshanth',
-    designation: 'Content Creator',
-    img: 'jonathan.jpg',
-    social: {
-      instagram: '#',
-      facebook: 'https://www.facebook.com/search/top?q=jonathan%20harshanth%20nithiananthan',
-      linkedin: 'https://www.linkedin.com/in/jhnithi/',
-      twitter: 'https://twitter.com/harshanth96'
-    }
-  },
-  {
-    id: '3',
-    name: 'Dilshan William',
-    designation: 'Content Creator',
-    img: 'dilshan.jpg',
-    social: {
-      instagram: 'https://www.instagram.com/dilshan_the_boss/',
-      facebook: 'https://www.facebook.com/dilshan.william',
-      linkedin: '#',
-      twitter: 'https://twitter.com/dilshan_william/'
-    }
-  },
-  {
-    id: '2',
-    name: 'Aaron Sanjeev Vasu',
-    designation: 'Content Creator',
-    img: 'aaron.jpg',
-    social: {
-      instagram: 'https://www.instagram.com/aaron_sanjeev/',
-      facebook: 'https://www.facebook.com/aaronsan7eev/',
-      linkedin: '#',
-      twitter: 'https://twitter.com/aaron_sanjeev'
-    }
-  },
-  {
-    id: '1',
-    name: 'Adin Hudson',
-    designation: 'Web Developer',
-    img: 'adin.jpg',
-    social: {
-      instagram: 'https://www.instagram.com/adin_hudson/',
-      facebook: 'https://www.facebook.com/adinpathmanathan',
-      linkedin: 'https://www.linkedin.com/in/adin-hudson/',
-      twitter: 'https://twitter.com/adin_hudson'
     }
   }
 ];
