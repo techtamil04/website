@@ -284,7 +284,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'Bill Gates ஐ பற்றி நீங்கள் அறியாத 17 விடயங்கள்',
     duration: '21:29',
-    url: 'snapchatPost',
+    url: 'https://youtu.be/5v0qQxyx4ec',
     img: 'billGates.jpg',
     trending: false,
     latest: false
@@ -294,7 +294,7 @@ const videoData = [
     type: 'தொழில்நுட்பம்',
     title: 'தமிழ் | Tamil | HOW TO USE UBER SRILANKA - FREE RIDE CODE INSIDE',
     duration: '21:29',
-    url: 'https://youtu.be/5v0qQxyx4ec',
+    url: 'https://youtu.be/UZ6GZj2Zaws',
     img: 'uberTamil.jpg',
     trending: false,
     latest: false
@@ -342,7 +342,7 @@ function trendingTemplate (video) {
         </div>
         <div class="post-content">
             <a href="#" class="post-cata">${video.type}</a>
-            <a href="${video.url}" class="post-title">${video.title}</a>
+            <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
             <div class="post-meta d-flex">
             </div>
         </div>
@@ -360,7 +360,7 @@ function sportsTemplate (video) {
       </div>
       <div class="post-content">
       <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-      <a href="${video.url}" class="post-title">${video.title}</a>
+      <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
       <div class="post-meta d-flex">
       </div>
       </div>
@@ -378,7 +378,7 @@ function otherTemplate (video) {
       </div>
       <div class="post-content">
         <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-        <a href="${video.url}" class="post-title">${video.title}</a>
+        <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
         <div class="post-meta d-flex">
         </div>
       </div>
@@ -390,10 +390,10 @@ function otherTemplate (video) {
 function latestVideostemplate (video) {
   return `
         <div class="single-feature-post video-post bg-img swiper-slide" style="background-image: url(img/bg-img/${video.img});">
-        <a href="${video.url}" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+        <a href="${video.url}" class="btn play-btn" target="_blank"><i class="fa fa-play" aria-hidden="true"></i></a>
           <div class="post-content">
             <a href="#" class="post-cata">${video.type}</a>
-            <a href="${video.url}" class="post-title">${video.title}</a>
+            <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
             <div class="post-meta d-flex">
             </div>
           </div>
@@ -411,7 +411,7 @@ function latestSideTemplate (video) {
       </div>
       <div class="post-content">
         <a href="#" class="post-cata cata-sm cata-success">${video.type}</a>
-        <a href="single-post.html" class="post-title">${video.title}</a>
+        <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
         <div class="post-meta d-flex justify-content-between">
         </div>
       </div>

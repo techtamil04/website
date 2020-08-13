@@ -22,7 +22,7 @@ const newsData = [
   {
     id: '1',
     type: 'தொழில்நுட்பம்',
-    author: 'Adin Hudson',
+    author: 'Aaron Sanjeev',
     title: 'விரைவில் ஹாலோகிராம் தொடர்பாடல் வசதி',
     description: 'லாஸ் ஏஞ்சல்ஸ் நிறுவனம் உங்கள் அறைக்குள் நேரடி ஹாலோகிராம்களை ஒளிபரப்ப தயார்',
     date: '10.08.2020',
