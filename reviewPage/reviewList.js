@@ -132,7 +132,7 @@ function HowTotemplateList (video) {
             <div class="col-12 col-md-6">
                 <div class="post-content mt-0">
                     <a href="#" class="post-cata cata-sm cata-primary">${video.type}</a>
-                    <a href="single-post.html" class="post-title mb-2">${video.title}</a>
+                    <a href="${video.url}" class="post-title mb-2" target="_blank">${video.title}</a>
                 <p class="mb-2">${video.description}</p>
                 </div>
             </div>

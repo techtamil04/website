@@ -1,5 +1,17 @@
 const newsData = [
   {
+    id: '4',
+    type: 'தொழில்நுட்பம்',
+    author: 'Arabi Balachandran',
+    title: 'நீர் குளிரூட்டல் (Water Cooling)',
+    description: 'கணினி பாகங்களாககிய கிராபிக்ஸ் கார்டுகள் போன்ற பிற கூறுகளின் வெப்பநிலையைக் குறைக்கப்பதற்காக நீர் குளிரூட்டல் என்ற முறை பயன்படுகிறது',
+    date: '16.08.2020',
+    url: '../articles/waterCooling',
+    img: 'waterCooling.jpg',
+    active: 'active',
+    active1: 'show active'
+  },
+  {
     id: '3',
     type: 'தொழில்நுட்பம்',
     author: 'Arabi Balachandran',
@@ -8,8 +20,8 @@ const newsData = [
     date: '13.08.2020',
     url: '../articles/easyEarning',
     img: 'make-money-online.jpg',
-    active: 'active',
-    active1: 'show active'
+    active: '',
+    active1: ''
   },
   {
     id: '2',

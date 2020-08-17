@@ -91,7 +91,7 @@ function HowTo (video) {
       </div>
       <div class="post-content">
           <a href="#" class="post-cata cata-sm cata-success">${video.type}</a>
-          <a href="single-post.html" class="post-title">${video.title}</a>
+          <a href="${video.url}" class="post-title" target="_blank">${video.title}</a>
           
       </div>
   </div>
