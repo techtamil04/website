@@ -7,7 +7,9 @@ const newsData = [
     description: 'தொலைதொடர்பின் உதவியின் மூலம் வீட்டிலிருந்து வேலை செய்வதினால் நீங்கள் பெரும் நன்மைகளும் மற்றும் தீமைகளும் ',
     date: '05.09.2020',
     url: '../articles/workFromHome',
-    img: 'workFromHome.jpeg'
+    img: 'workFromHome.jpeg',
+    active: 'active',
+    active1: 'show active'
   },
   {
     id: '4',
@@ -18,8 +20,8 @@ const newsData = [
     date: '16.08.2020',
     url: '../articles/waterCooling',
     img: 'waterCooling.jpg',
-    active: 'active',
-    active1: 'show active'
+    active: '',
+    active1: ''
   },
   {
     id: '3',
