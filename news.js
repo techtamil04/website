@@ -1,5 +1,15 @@
 const newsData = [
   {
+    id: '5',
+    type: 'தகவல்',
+    author: 'Aaron Sanjeev',
+    title: 'வீட்டிலிருந்து வேலை செய்வதினால் நீங்கள் பெரும் 10 நன்மைகளும் மற்றும் தீமைகளும்',
+    description: 'தொலைதொடர்பின் உதவியின் மூலம் வீட்டிலிருந்து வேலை செய்வதினால் நீங்கள் பெரும் நன்மைகளும் மற்றும் தீமைகளும் ',
+    date: '05.09.2020',
+    url: '../articles/workFromHome',
+    img: 'workFromHome.jpeg'
+  },
+  {
     id: '4',
     type: 'தொழில்நுட்பம்',
     author: 'Arabi Balachandran',
